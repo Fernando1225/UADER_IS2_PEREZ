@@ -14,6 +14,9 @@ for x in range(2, max + 1):
 	if isPrime:
 		primeList.append(x)
 print(primeList)
+
+# AGREGANDO COMENTARIO DE PRUEBA
+
 #-------------------------------------------------------------
 # prime number calculator: find the first n primes
 count = int(input("Find how many primes?: "))
