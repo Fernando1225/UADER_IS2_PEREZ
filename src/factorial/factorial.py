@@ -7,6 +7,12 @@
 #*-------------------------------------------------------------------------*
 import sys
 
+
+
+# En el de extremos el factorial iba desde el extremo x hasta el extremo y
+# Ahora modificado se calcula el factorial del valor ingresado y despues se calcula el factorial desde el valor ingresado
+# hasta 60
+
 def factorial(num): 
     factoriales = []
     if num < 0: 
