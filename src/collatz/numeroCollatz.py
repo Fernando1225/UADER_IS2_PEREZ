@@ -17,11 +17,11 @@ def calcularNCollatz(num):
 
 x = []
 y = []
-for i in range(1,10000):
+for i in range(1,100):
     a = calcularNCollatz(i)[2]
     x.append(i)
     y.append(len(a))
-plt.plot(x, y, "o")
+plt.plot(x, y)
 plt.show()
 # if len(sys.argv) == 0:
 #     print("Debe informar un número!")
