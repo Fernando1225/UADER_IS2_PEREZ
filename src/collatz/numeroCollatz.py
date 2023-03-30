@@ -29,7 +29,7 @@ y = []
 for i in range(1,1000):
     a = calcularNCollatz(i)[2]
     x.append(i)
-    y.append(len(a)-1)
+    y.append(len(a))
 plt.plot(x, y, "o")
 plt.show()
 
