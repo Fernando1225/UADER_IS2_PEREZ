@@ -11,7 +11,9 @@ openai.api_key = API_KEY
 TOP_P=1
 FREQ_PENALTY=0
 PRES_PENALTY=0
-STOP=["You:","chatGPT:"]
+# STOP=["You:","chatGPT:"]
+# With the parameters You and chatGPT doesn't work properly
+STOP = None
 MAX_TOKENS=1024
 TEMPERATURE=0.75
 NMAX=1
