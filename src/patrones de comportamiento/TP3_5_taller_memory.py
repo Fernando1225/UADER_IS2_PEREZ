@@ -70,14 +70,17 @@ if __name__ == '__main__':
 	print("Se muestra el estado actual")
 	print(writer.content + "\n\n")
 
+	print("se invoca de nuevo al metodo <undo>")
 	caretaker.undo(writer, 1)
 	print("Se muestra el estado actual")
 	print(writer.content + "\n\n")
 
+	print("Nuevamente al metodo <undo>")
 	caretaker.undo(writer, 3)
 	print("Se muestra el estado actual")
 	print(writer.content + "\n\n")
 
+	print("Y de nuevo al metodo <undo>")
 	caretaker.undo(writer, 0)
 	print("Se muestra el estado actual")
 	print(writer.content + "\n\n")
